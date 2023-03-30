@@ -3,26 +3,33 @@
 html,
 body,
 #root,
-.App,
+.app,
 .content {
   height: 100%;
   width: 100%;
-  font-family: "Source Sans Pro" sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-.App {
+.app {
   display: flex;
   position: relative;
 }
+
 ::-webkit-scrollbar {
   width: 10px;
 }
+
+/* Track */
 ::-webkit-scrollbar-track {
   background: #e0e0e0;
 }
-::-webkit-scrollbar-track:hover {
-  background: #555;
-}
+
+/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
